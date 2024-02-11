@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.contenedor{
+    width: 30vw;
+    height: 60vh;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: center;   
+}
+
+/* .close{
+    width: 0;
+    height: 0;
+    font-size: 22px;
+    border: none;
+    color: rgb(200, 204, 209);    
+    justify-content: end;
+    align-self: flex-end;
+    cursor: pointer;
+} */
+
+.close {
+    content: "\00D7"; /* Caracter "x" */
+    font-size: 35px; /* Ajusta el tamaño */
+    color: rgb(200, 204, 209); /* Elige el color */
+    background-color: transparent; /* Fondo transparente */
+    border: none; /* Elimina el borde */
+    padding: 0; /* Elimina el relleno */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    justify-content: end;
+    align-self: flex-end;
+    font-weight: 50;
+    font-family: "Helvetica Neue", sans-serif;
+    }
+
+.card{
+    width: 432px;
+    height: 399px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content: space-around;
+    border-radius: 24px;
+}
+
+.card__imagen{
+    align-self: center;
+}
+
+.card__texto{
+    font-weight: 510;
+    text-align: center;
+    font-size: 18px;
+}
+
+.card__boton {
+    font-size: 16px;
+    align-self: center;
+    border: 0;
+    width: 200px;
+    height: 45px;
+    background-color: #ED6755;
+    border-radius: 3px;
+    color: white;
+    padding: 10px 5px;
+    cursor: pointer;
+    box-shadow: 0px 5px 15px #ED6755;
+}
